@@ -144,7 +144,7 @@ body {
 }
 
 .QUIZ_BOX {
-  background-image:url('/projects/quizbg.jpeg');
+  background-image:url('/website/projects/quizbg.jpeg');
   background-size:900px 400px;
   border-radius:10px;
   margin:9vh;
