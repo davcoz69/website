@@ -70,7 +70,7 @@ body {
 
 
 .SVT_BOX {
-  background-image:url('/projects/bg_svt.jpeg');
+  background-image:url('/website/projects/bg_svt.jpeg');
   border-radius:10px;
   background-size:1900px 1800px;
   margin:9vh;
@@ -146,7 +146,7 @@ body {
 }
 
 .QUIZ_BOX {
-  background-image:url('/projects/quizbg.jpeg');
+  background-image:url('/website/projects/quizbg.jpeg');
   background-size:900px 400px;
   border-radius:10px;
   margin:9vh;
