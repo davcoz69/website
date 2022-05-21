@@ -1,0 +1,39 @@
+<!DOCTYPE html lang="en">
+
+
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="js" href="main.js">
+    <title>Website</title>
+</head>
+
+<body>
+    
+    <ul>
+        <li><a class="active" href="index.htm">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.htm">Contact</a></li>
+      </ul>
+      <br>
+
+      <p5>Contact</p5>
+      <br>
+      <hr class="hr3">
+      <br>
+      <div class="email_box">
+        <div class="email1">Email:&nbsp;&nbsp;</div>
+        <div class="popup" onclick="copyText()">davcoz26@gmail.com<span class="popuptext" id="myPopup">Copied!</span></div>
+  
+      </div>
+
+      <script>
+        function copyText() {
+            var popup = document.getElementById("myPopup");
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("davcoz26@gmail.com");
+            popup.classList.toggle("show");
+        }
+    </script>
+
+</body>
