@@ -265,6 +265,14 @@ section {
     }
 }
 
+.nuclear {
+    margin-top: 22px;
+    text-align: center;
+    font-size: 54px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
 html {
     position: relative;
     min-height: 100%;
