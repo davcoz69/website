@@ -233,38 +233,6 @@ section {
 
 /* Media Queries */
 
-@media (max-width: 600px) {
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-right {
-        text-align: center;
-        height: 22px;
-    }
-    .footer-distributed .footer-right {
-        float: none;
-        margin: 0 auto 20px;
-        height: 22px;
-    }
-    .footer-distributed .footer-left p.footer-links {
-        line-height: 1.8;
-        height: 22px;
-    }
-}
-
-@media (max-width: 1272px) {
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-right {
-        text-align: center;
-    }
-    .footer-distributed .footer-right {
-        float: none;
-        margin: 0 auto 20px;
-        height: 22px;
-    }
-    .footer-distributed .footer-left p.footer-links {
-        line-height: 1.8;
-    }
-}
-
 .nuclear {
     margin-top: 22px;
     text-align: center;
