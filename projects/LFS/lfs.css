@@ -318,6 +318,8 @@ li a:hover {
     border: transparent;
     color: rgb(172, 121, 255);
     font-size: 42px;
+    position: absolute;
+    bottom: 180px;
 }
 
 .back a {
@@ -345,4 +347,11 @@ li a:hover {
     border: 0;
     height: 1px;
     background-color: #33383b;
+}
+
+.waiting {
+    font-size: 24px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
 }
